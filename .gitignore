@@ -1,2 +1,10 @@
 venv
+
 application.properties
+private.keys/
+
+configs/*.yaml
+comms/*.yaml
+
+*.bak
+*.log
