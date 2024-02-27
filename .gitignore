@@ -1,4 +1,9 @@
 venv
 application.properties
-private_keys
+private.keys/
 
+configs/*.yaml
+comms/*.yaml
+
+*.bak
+*.log
