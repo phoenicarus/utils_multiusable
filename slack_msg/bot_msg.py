@@ -58,20 +58,3 @@ class SlackAPI:
             text=text
         )
         return result
-
-
-
-
-token = "xoxb-6402874195553-6703029200516-tpTr09uTeW68iFRAiFb0dzs1"
-slack = SlackAPI(token)
-
-channel_name = "alert-from-the-other-side"
-query = "슬랙 봇 테스트"
-text = "자동 생성 문구 테스트"
-
-# 채널ID 파싱
-channel_id = slack.get_channel_id(channel_name)
-# 메세지ts 파싱
-message_ts = slack.get_message_ts(channel_id, query)
-# 댓글 달기
-slack.post_thread_message(channel_id, message_ts, text)
