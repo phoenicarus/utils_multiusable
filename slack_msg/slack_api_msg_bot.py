@@ -60,7 +60,9 @@ class SlackAPI:
         return result
 
 
-token = "xoxb-6402874195553-6703029200516-Ct3OWz9UcuQpELPvCvAds8C7"
+
+
+token = "xoxb-6402874195553-6703029200516-tpTr09uTeW68iFRAiFb0dzs1"
 slack = SlackAPI(token)
 
 channel_name = "alert-from-the-other-side"
